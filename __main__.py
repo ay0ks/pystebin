@@ -30,7 +30,7 @@ app = beaker.middleware.SessionMiddleware(
 
 class Paste(db.Entity):
     id = PrimaryKey(str)
-    paste = Required(str)
+    paste = Required(unicode, max_len=16777215)
 
 
 # set_sql_debug(True)
@@ -60,6 +60,7 @@ def index():
             link(rel="stylesheet", href="/static/pystebin.css")
 
         with doc.body:
+            attr(onload="brython()")
             with div(id="page"):
                 textarea(
                     id="paste",
