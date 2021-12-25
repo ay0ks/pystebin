@@ -4,6 +4,6 @@ PyStebin is a simple pastebin written in python, using:
   <li>pony (ORM)</li>
   <li>bottle (server)</li>
 </ul>
-Planning to add encryption jn the future.
+Planning to add encryption in the future.
 
 GitHub repo: <a href="https://github.com/ay0ks/pystebin">ay0ks/pystebin</a>
