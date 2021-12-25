@@ -60,7 +60,6 @@ def index():
             link(rel="stylesheet", href="/static/pystebin.css")
 
         with doc.body:
-            attr(onload="brython()")
             with div(id="page"):
                 textarea(
                     id="paste",
