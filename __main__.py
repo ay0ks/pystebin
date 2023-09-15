@@ -1,9 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# ANNIHILATION <annihilation.ga>
-# Dimitriy i0x <contact@annihilation.ga>
-
 import random
 
 import beaker.middleware
