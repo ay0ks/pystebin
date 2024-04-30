@@ -1,4 +1,4 @@
-PyStebin is a simple pastebin written in python, using:
+Pystebin is a simple pastebin written in python, using:
 <ul>
   <li>dominate</li>
   <li>pony (ORM)</li>
